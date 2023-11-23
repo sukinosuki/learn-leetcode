@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="54b24637-8ae7-44e3-8b74-9b0fcb66aca4" name="local virtualbox centos7">
+        <fileTransfer accessType="SFTP" host="192.168.10.101" port="22" sshConfigId="a9383dbc-b0f5-4a61-b89f-94cd270f0030" sshConfig="root@192.168.10.101:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
