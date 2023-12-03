@@ -27,15 +27,11 @@ func hasPathSum(root *TreeNode, targetSum int) bool {
 
 			if node.Left != nil {
 				node.Left.Val = node.Val - node.Left.Val
-				if node.Left.Val >= 0 {
-					stack = append(stack, node.Left)
-				}
+				stack = append(stack, node.Left)
 			}
 			if node.Right != nil {
 				node.Right.Val = node.Val - node.Right.Val
-				if node.Right.Val >= 0 {
-					stack = append(stack, node.Right)
-				}
+				stack = append(stack, node.Right)
 			}
 			size--
 		}
